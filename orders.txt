@@ -1,0 +1,19 @@
+
+Customer Name: ncuab
+Pizza: Chicken
+Bill: $250
+Customer Name: niranan
+Pizza: Custom Pizza with Extra Cheese, Onions, Pepperoni
+Bill: RS50
+Customer Name: niaj
+Pizza: Custom Pizza with Extra Cheese, Onions, Pepperoni
+Bill: RS50
+Customer Name: naira
+Pizza: Custom Pizza with Extra Cheese, Onions, Pepperoni
+Bill: RS400
+Customer Name: nragf
+Pizza: Custom Pizza with Extra Cheese, Onions, Pepperoni
+Bill: RS449
+Customer Name: anidc
+Pizza: Cheese
+Bill: RS199
