@@ -17,3 +17,6 @@ Bill: RS449
 Customer Name: anidc
 Pizza: Cheese
 Bill: RS199
+Customer Name: Niranja shrestha
+Pizza: Chicken
+Bill: RS250
