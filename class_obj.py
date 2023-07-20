@@ -1,14 +1,43 @@
 
 class HumanBeing():
-    greet = "Welcome Humans"
+    greet = "Welcome Human"#class variable
     def __init__(self,name):
-        self.name=name
+        self.name=name#instance variable
         
-    def greeting(self):
-        print(f'{self.greet}, {self.name}')
+    #instance method
+    def print_name(self):
+        print(f'Name is {self.name},{self.greet}')
+        
+    #class method
+    @classmethod #decorators
+    def greeting(cls):
+        print(f'{cls.greet}')
+        
+    #static method
+    @staticmethod #decorators
+    def do_something():
+        hello="welcome to static method"
+        print(hello)
 
+#instance method call
 bibidh_object = HumanBeing("bibidh")
-reya_object = HumanBeing("reya")
+bibidh_object.print_name()
+bibidh_object.do_something()
 bibidh_object.greeting()
 print()
-reya_object.greeting()
+
+#instance method call
+reya_object = HumanBeing("reya")
+reya_object.print_name()
+print()
+
+
+#class method call
+human_being_greeting = HumanBeing.greeting()
+
+#static method call
+human_being_do_some_thing = HumanBeing.do_something()
+
+
+
+
