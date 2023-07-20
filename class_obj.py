@@ -22,8 +22,8 @@ class HumanBeing():
 #instance method call
 bibidh_object = HumanBeing("bibidh")
 bibidh_object.print_name()
-bibidh_object.do_something()
 bibidh_object.greeting()
+bibidh_object.do_something()
 print()
 
 #instance method call
