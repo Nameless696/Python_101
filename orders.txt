@@ -20,3 +20,12 @@ Bill: RS199
 Customer Name: Niranja shrestha
 Pizza: Chicken
 Bill: RS250
+Customer Name: ncaic
+Pizza: Custom Pizza with Extra Cheese, Mushrooms
+Bill: RS235
+Customer Name: nhfba
+Pizza: Cheese
+Bill: RS350
+Customer Name: gsg
+Pizza: Custom Pizza with Mushrooms, Onions, Bell Peppers, Pepperoni
+Bill: RS260
