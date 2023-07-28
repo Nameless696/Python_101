@@ -1,0 +1,62 @@
+
+list - mutable l[2]
+		len(lists)
+		max(),
+		min(),sum(),
+		sorted(), 		    append(),extend(),insert(),
+
+tuple - immutable -
+		len(tuple)
+		max(), min(), sum(), sorted()
+
+dictionary - my_dictionary['age'] 
+		len(dictionary)
+		dictionary.keys()
+		dictionary.values()
+		dictionary.update(value)
+
+
+str - len(string), str(), string.upper(), string.lower(),string.strip(), split, join, replace
+
+
+
+List:
+
+len(list): Returns the number of elements in the list.
+list.append(item): Appends an item to the end of the list.
+list.extend(iterable): Extends the list by appending elements from an iterable.
+list.insert(index, item): Inserts an item at a specified index in the list.
+list.remove(item): Removes the first occurrence of the item from the list.
+list.pop(index=-1): Removes and returns the item at the specified index (or the last item if no index is provided).
+list.index(item, start=0, end=len(list)): Returns the index of the first occurrence of the item.
+list.count(item): Returns the number of occurrences of the item in the list.
+list.sort(key=None, reverse=False): Sorts the list in ascending order (or descending if reverse=True).
+list.reverse(): Reverses the order of the elements in the list.
+Dictionary:
+
+len(dictionary): Returns the number of key-value pairs in the dictionary.
+dictionary.keys(): Returns a view object of the dictionary's keys.
+dictionary.values(): Returns a view object of the dictionary's values.
+dictionary.items(): Returns a view object of the dictionary's key-value pairs.
+dictionary.get(key, default=None): Returns the value associated with the key, or a default value if the key is not found.
+dictionary.pop(key, default=None): Removes and returns the value associated with the key, or a default value if the key is not found.
+dictionary.popitem(): Removes and returns a key-value pair from the dictionary (the last inserted item, in Python 3.7+).
+dictionary.clear(): Removes all key-value pairs from the dictionary.
+Tuple:
+
+len(tuple): Returns the number of elements in the tuple.
+tuple.count(item): Returns the number of occurrences of the item in the tuple.
+tuple.index(item, start=0, end=len(tuple)): Returns the index of the first occurrence of the item.
+String:
+
+len(string): Returns the length of the string.
+string.upper(): Returns a copy of the string converted to uppercase.
+string.lower(): Returns a copy of the string converted to lowercase.
+string.capitalize(): Returns a copy of the string with the first character capitalized.
+string.split(sep=None, maxsplit=-1): Returns a list of substrings separated by the specified separator.
+string.strip(chars=None): Returns a copy of the string with leading and trailing characters removed.
+string.replace(old, new, count=-1): Returns a copy of the string with occurrences of 'old' replaced with 'new'.
+These are just a few examples of the built-in functions available for these data types. Python provides a rich set of built-in functions and methods to manipulate and work with different data structures effectively.
+
+
+
